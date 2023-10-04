@@ -1,0 +1,83 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.random-number-generator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 16px;
+  border: 1px solid #e4ebf3;
+  padding: 36px;
+  box-shadow: 0px 4px 16px 0p;
+}
+.heading {
+  color: #0b69ff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.description {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+}
+
+.random-number-generator-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  margin-top: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.random-number {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .random-number {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .random-number-generator-container {
+    width: 35%;
+    max-width: 500px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
